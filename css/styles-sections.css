@@ -1,0 +1,99 @@
+body {
+  font-family: "Roboto Slab", serif;
+
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (max-width: 544px) {
+  .jobContainer h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 544px) {
+  .jobContainer h2 {
+    font-size: 3rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .jobContainer h2 {
+    font-size: 3rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jobContainer h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1300px) {
+  .jobContainer h2 {
+    font-size: 2rem;
+  }
+}
+
+.jobLogo {
+  border-radius: 0.75rem;
+  text-align: center;
+  align-self: center;
+  height: 10rem;
+  margin: 2rem 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/logos/umbro_web-800x500.jpg);
+}
+
+.jobRow {
+  margin-top: 3rem;
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-top: 6rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.164);
+}
+
+.jobDescription {
+  padding: 2rem;
+}
+
+.jobDescription hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.carrouselImg {
+  border-radius: 0.5rem;
+  width: 20rem;
+  padding: 1rem;
+}
+
+.itemDescription {
+  padding: 1rem;
+}

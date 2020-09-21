@@ -1,17 +1,5 @@
 body {
   font-family: "Roboto Slab", serif;
-
-  background: #16222a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #5a859b,
-    #2f4655
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #5a859b,
-    #2f4655
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media (max-width: 544px) {
@@ -64,24 +52,25 @@ body {
 }
 
 .jobContainer {
+  height: 100%;
   margin-top: 3rem;
-  background: #42275a; /* fallback for old browsers */
+  background: #16222a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #734b6d7e,
-    #42275a7c
+    #5a859bb6,
+    #2f4655ab
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #734b6da4,
-    #42275aad
+    #5a859bb6,
+    #2f4655ab
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
   padding: 2rem;
   border-radius: 0.25rem;
   box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.384);
-  color: rgb(223, 222, 222);
+  color: rgb(19, 18, 51);
   animation: zoomIn 500ms;
 }
 
@@ -94,16 +83,16 @@ body {
 
 .jobContainer:hover {
   margin-top: 3rem;
-  background: #27505a3b; /* fallback for old browsers */
+  background: #16222a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #734b6dd5,
-    #42275ac0
+    #5a859b,
+    #2f4655
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #734b6dcb,
-    #42275ad2
+    #5a859b,
+    #2f4655
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
@@ -133,7 +122,7 @@ body {
     #d3cce3
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  margin-top: 3rem;
+  margin-top: 6rem;
   border-radius: 0.25rem;
   box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.164);
 }
