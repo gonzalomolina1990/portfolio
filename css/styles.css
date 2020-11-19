@@ -173,3 +173,9 @@ body {
 
   z-index: 10;
 }
+
+.introduction {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
