@@ -5,3 +5,11 @@ window.addEventListener("scroll", function () {
     $(".navbar").css("background-color", " rgba(53, 53, 53, 0)") = "black";
   }
 });
+
+window.addEventListener("scroll", function () {
+  if (document.documentElement.scrollTop > 0) {
+    $(".navbar").css("display", "block");
+  } else {
+    $(".navbar").css("display", "none");
+  }
+});
