@@ -43,7 +43,7 @@
 
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <!-- Navbar brand -->
         <a class="navbar-brand" href="#">Gonzalo<b>Molina</b></a>
@@ -393,13 +393,14 @@
     </div>
 
     <footer class="bg-dark mt-5 py-4">
-      <form>
+      <form action="https://formspree.io/f/xjvpodbv" method="POST">
         <div class="container">
           <h1 class="text-light pb-4">Contactame</h1>
           <div class="form-group bg-dark">
             <label for="exampleInputEmail1" class="text-white"> E-Mail </label>
             <input
-              type="email"
+              type="text"
+              name="_replyto"
               class="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
@@ -414,6 +415,7 @@
               class="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
+              name="message"
             ></textarea>
           </div>
 
