@@ -18,8 +18,9 @@
       crossorigin="anonymous"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
 
@@ -41,43 +42,105 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Gonzalo Molina</a>
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Gonzalo<b>Molina</b></a>
+
+        <!-- Collapse button -->
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-target="#basicExampleNav"
+          aria-controls="basicExampleNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#"
-              >Trabajos <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="#">Sobre mi</a>
-            <a class="nav-item nav-link" href="#">Contacto</a>
-          </div>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >CV
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Linkedin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GitHub</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Servicios</a
+              >
+              <div
+                class="dropdown-menu dropdown-primary"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Desarrollador</a>
+                <a class="dropdown-item" href="#">Marketer</a>
+                <a class="dropdown-item" href="#">Animador 2D</a>
+                <a class="dropdown-item" href="#">Diseñador</a>
+              </div>
+            </li>
+          </ul>
+          <!-- Links -->
         </div>
+        <!-- Collapsible content -->
       </div>
     </nav>
+    <!--/.Navbar-->
+
+    <div class="container mainBanner">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>
+            <a href="https://www.linkedin.com/in/gonzalomolina1990">CV</a>
+          </h1>
+          <h1>
+            <a href="https://www.linkedin.com/in/gonzalomolina1990">Linkedin</a>
+          </h1>
+          <h1><a href="https://github.com/gonzalomolina1990">GitHub</a></h1>
+          <h1>
+            <a href="https://www.linkedin.com/in/gonzalomolina1990">Whatsapp</a>
+          </h1>
+        </div>
+
+        <div class="col-md-6">
+          <img src="./img/profile.png" alt="Gonzalo Molina" class="img-fluid" />
+        </div>
+      </div>
+    </div>
 
     <div class="container">
-      <div class="introduction">
-        <h1>¿En qué te puedo ayudar?</h1>
-        <hr />
-        <h3>Brand Booster: ¡Demos el impulso necesario a tu emprendimiento!</h3>
+      <div class="alert" role="alert">
+        Sitio en construcción.
+        <a href="https://gonzalomolina1990.wixsite.com/portfolio">
+          <b>Puede ver aquí mis trabajos </b>
+        </a>
       </div>
 
-      <div class="row">
+      <div class="mainSquare mt-3">
+        <h4>¿En qué te puedo ayudar?</h4>
+        <p>Brand Booster: ¡Demos el impulso necesario a tu emprendimiento!</p>
+      </div>
+
+      <div class="row mb-5">
         <div class="col-lg-3">
           <div
             class="jobContainer animate__zoomIn animate__slower"
@@ -311,36 +374,19 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="banner">
-        <div class="row p-3">
-          <div class="col-md-4 align-content-center">
-            <div class="fotoContainer">
-              <img
-                src="img/perfil_foto.jpg"
-                alt="Gonzalo Molina"
-                class="foto align-self-center"
-              />
-            </div>
-          </div>
-
-          <div class="col-md-8 d-flex align-content-center">
-            <blockquote class="blockquote mb-0 p-3 align-self-center">
-              <i class="fas fa-quote-left"></i>
-              <p class="quoteIntro">
-                Soy un joven proactivo y emprendedor, capaz de adaptarme a
-                cualquier equipo de trabajo. Me motivan los desafíos y buscar
-                soluciones tan eficientes como creativas. Soy autodidacta y
-                siempre intento mantenerme actualizado, en constante
-                aprendizaje. <i class="fas fa-quote-right"></i>
-              </p>
-              <footer class="blockquote-footer">
-                <cite title="Source Title">Gonzalo Molina</cite>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-      </div>
+    <div class="container mainSquare p-4">
+      <p>
+        A mis 30 años, luego de 10 años de experiencia dedicado al rubro del
+        marketing y comunicación he decidido volver a mi vocación original de
+        programador con la convicción de insertarme en este mercado
+        definitivamente. Para ello he realizado un curso muy intensivo de Full
+        Stack de más de 650 horas en 3 meses como puntapié inicial de mi
+        re-orientación laboral. Tengo mucha confianza en poder agregar valor en
+        mis nuevos trabajos explotando mis virtudes como diseñador, comunicador
+        y marketer.
+      </p>
     </div>
 
     <footer class="bg-dark mt-5 py-4">

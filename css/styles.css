@@ -1,7 +1,3 @@
-body {
-  font-family: "Roboto Slab", serif;
-}
-
 @media (max-width: 544px) {
   .jobContainer h2 {
     font-size: 2rem;
@@ -51,26 +47,32 @@ body {
   }
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+
+  background: #0b1933; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #292929,
+    #04080f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0f091d,
+    #020a18
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .jobContainer {
   height: 100%;
   margin-top: 3rem;
   background: #16222a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #5a859bb6,
-    #2f4655ab
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #5a859bb6,
-    #2f4655ab
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
   padding: 2rem;
   border-radius: 0.25rem;
   box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.384);
-  color: rgb(19, 18, 51);
+  color: rgb(202, 202, 202);
   animation: zoomIn 500ms;
 }
 
@@ -84,16 +86,6 @@ body {
 .jobContainer:hover {
   margin-top: 3rem;
   background: #16222a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #5a859b,
-    #2f4655
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #5a859b,
-    #2f4655
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
   padding: 2rem;
@@ -178,4 +170,97 @@ body {
   margin-top: 2rem;
   padding: 1rem;
   text-align: center;
+}
+
+.mainBanner {
+  height: fit-content;
+  color: white;
+  padding-top: 4rem;
+}
+
+.mainSquare {
+  color: white;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.jobRow {
+  margin-top: 3rem;
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-top: 6rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.164);
+  align-content: center;
+  text-align: center;
+}
+
+.jobDescription {
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.jobDescription hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.carrouselImg {
+  border-radius: 0.5rem;
+  width: 20rem;
+  padding: 1rem;
+}
+
+.itemDescription {
+  padding: 1rem;
+}
+
+.jobLogo {
+  border-radius: 100%;
+  text-align: center;
+  align-self: center;
+  height: fit-content;
+  margin: 2rem;
+  height: 10rem;
+}
+
+.imgJob {
+  margin: 2rem;
+  max-height: 20rem;
+}
+
+h1 a {
+  color: white;
+}
+
+h1 a:hover {
+  color: white;
+}
+
+.alert {
+  text-align: center;
+  margin-bottom: 2rem;
+  background: -webkit-linear-gradient(
+    to right,
+    #08051b,
+    rgb(6, 1, 14)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #08051b,
+    rgb(6, 1, 14)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.384);
 }
